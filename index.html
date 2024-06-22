@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Social links profile</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    @font-face {
+      font-family: inter;
+      src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+    }
+
+    body {
+      font-family: inter;
+    }
+  </style>
+</head>
+
+<body class="h-screen w-full bg-[#101010] flex items-center font-inter justify-center text-white">
+  <section>
+    <article class="w-[420px] p-8 rounded-xl bg-slate-800 flex flex-col items-center justify-bettween">
+      <div>
+        <img src="assets/images/avatar-jessica.jpeg" alt="" class="w-[120px] mx-auto rounded-full mb-5">
+        <h1 class="py-2 text-3xl font-bold text-center">Jessica Randall</h1>
+        <h2 class="mb-5 text-2xl text-center text-green-400 ">London, United Kingdom</h2>
+        <p class="mb-5 text-center opacity-70">"Front-end developer and avid reader."</p>
+      </div>
+      <div class="flex flex-col w-full gap-y-4">
+        <button class="w-full py-4 font-medium bg-gray-500 rounded-md">Github</button>
+        <button class="w-full py-4 font-medium bg-gray-500 rounded-md">Frontend Mentor</button>
+        <button class="w-full py-4 font-medium bg-gray-500 rounded-md">LinkedIn</button>
+        <button class="w-full py-4 font-medium bg-gray-500 rounded-md">Twitter</button>
+        <button class="w-full py-4 font-medium bg-gray-500 rounded-md">Instagram</button>
+      </div>
+    </article>
+  </section>
+</body>
+
+</html>
